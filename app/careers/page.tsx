@@ -1,9 +1,15 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Check, Calendar, MapPin, Briefcase } from "lucide-react"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Careers",
+  description: "Join our team of designers, strategists, and thinkers dedicated to creating clear, functional design.",
+}
 
 // Job type definition
 type Job = {

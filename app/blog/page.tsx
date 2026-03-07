@@ -1,6 +1,12 @@
+import { Metadata } from "next"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import BlogClient from "./blog-client"
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Insights, perspectives, and case studies on Swiss Design, typography, and modern design practices.",
+}
 
 export default function BlogPage() {
   return (

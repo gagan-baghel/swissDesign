@@ -1,9 +1,15 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { Check } from "lucide-react"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Our Process",
+  description: "Our methodical, purposeful design process rooted in Swiss Design principles. We believe in a systematic approach.",
+}
 
 export default function ProcessPage() {
   return (

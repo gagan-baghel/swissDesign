@@ -1,7 +1,13 @@
+import { Metadata } from "next"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
 import ProjectsClient from "./client"
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Explore a curated selection of our work showcasing Swiss Design principles in action.",
+}
 
 export default function ProjectsPage() {
   return (

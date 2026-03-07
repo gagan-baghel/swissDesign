@@ -1,6 +1,12 @@
+import { Metadata } from "next"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Learn how Swiss Design Studio collects, uses, and protects your personal information.",
+}
 
 export default function PrivacyPolicyPage() {
   return (

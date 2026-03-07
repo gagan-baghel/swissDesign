@@ -1,3 +1,4 @@
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react"
@@ -5,6 +6,11 @@ import MainNav from "../../../components/main-nav"
 import SiteFooter from "../../../components/site-footer"
 import NewsletterSignup from "../../../components/newsletter-signup"
 import { getPostsByCategory } from "@/lib/blog-data"
+
+export const metadata: Metadata = {
+  title: "Design Theory | Blog",
+  description: "Thoughts and perspectives on the fundamental principles that govern effective visual communication.",
+}
 
 export default function DesignTheoryPage() {
   const posts = getPostsByCategory("Design Theory")

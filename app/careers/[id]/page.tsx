@@ -1,8 +1,26 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft, Calendar, MapPin, Briefcase, Check } from "lucide-react"
 import MainNav from "../../components/main-nav"
 import SiteFooter from "../../components/site-footer"
 import NewsletterSignup from "../../components/newsletter-signup"
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  const job = jobs.find((j) => j.id === id)
+
+  if (!job) {
+    return {
+      title: 'Job Not Found',
+    }
+  }
+
+  return {
+    title: `${job.title} | Careers`,
+    description: job.description,
+  }
+}
+
 
 // Job type definition
 type Job = {

@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft, Check } from "lucide-react"
 import MainNav from "../../components/main-nav"
 import SiteFooter from "../../components/site-footer"
 import NewsletterSignup from "../../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Digital Design Services",
+  description: "Swiss Design principles applied to digital experiences, creating websites, applications, and interfaces that are both beautiful and functional.",
+}
 
 export default function DigitalDesignPage() {
   return (

@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft, Check } from "lucide-react"
 import MainNav from "../../components/main-nav"
 import SiteFooter from "../../components/site-footer"
 import NewsletterSignup from "../../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Typography Services",
+  description: "We create typography systems that communicate with precision and clarity.",
+}
 
 export default function TypographyPage() {
   return (

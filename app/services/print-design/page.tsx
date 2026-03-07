@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft, Check } from "lucide-react"
 import MainNav from "../../components/main-nav"
 import SiteFooter from "../../components/site-footer"
 import NewsletterSignup from "../../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Print Design Services",
+  description: "Swiss precision in print materials, creating publications, collateral, and environmental graphics that communicate with clarity and impact.",
+}
 
 export default function PrintDesignPage() {
   return (

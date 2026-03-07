@@ -1,9 +1,15 @@
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Check } from "lucide-react"
 import MainNav from "../../components/main-nav"
 import NewsletterSignup from "../../components/newsletter-signup"
 import SiteFooter from "../../components/site-footer"
+
+export const metadata: Metadata = {
+  title: "Internships",
+  description: "Our internship program offers practical studio experience across design, strategy, and digital workstreams.",
+}
 
 const tracks = [
   {

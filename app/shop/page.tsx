@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import ShopClient from "./shop-client"
 import { ShoppingCart } from "lucide-react"
 import Image from "next/image"
+
+export const metadata: Metadata = {
+  title: "Shop",
+  description: "Explore our collection of design resources, templates, and merchandise inspired by Swiss Design.",
+}
 
 export default function ShopPage() {
   return (

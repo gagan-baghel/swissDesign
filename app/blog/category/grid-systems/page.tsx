@@ -1,3 +1,4 @@
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react"
@@ -5,6 +6,11 @@ import MainNav from "../../../components/main-nav"
 import SiteFooter from "../../../components/site-footer"
 import NewsletterSignup from "../../../components/newsletter-signup"
 import { getPostsByCategory } from "@/lib/blog-data"
+
+export const metadata: Metadata = {
+  title: "Grid Systems | Blog",
+  description: "Exploring the structural foundations of Swiss design and how they apply to modern digital and print interfaces.",
+}
 
 export default function GridSystemsCategoryPage() {
   const posts = getPostsByCategory("Grid Systems")

@@ -1,3 +1,4 @@
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, Clock } from "lucide-react"
@@ -5,6 +6,16 @@ import MainNav from "../../../components/main-nav"
 import NewsletterSignup from "../../../components/newsletter-signup"
 import SiteFooter from "../../../components/site-footer"
 import { getPostsByTag } from "@/lib/blog-data"
+
+export async function generateMetadata({ params }: { params: Promise<{ tag: string }> }): Promise<Metadata> {
+  const { tag: rawTag } = await params
+  const tag = decodeURIComponent(rawTag).toLowerCase()
+  return {
+    title: `${tag.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase())} | Blog tags`,
+    description: `Articles and case studies covering the topic of ${tag.replace(/-/g, " ")}.`,
+  }
+}
+
 
 export default async function BlogTagPage({ params }: { params: Promise<{ tag: string }> }) {
   const { tag: rawTag } = await params

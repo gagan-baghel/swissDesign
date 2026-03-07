@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import MainNav from "../../components/main-nav"
 import SiteFooter from "../../components/site-footer"
 import NewsletterSignup from "../../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Apply | Careers",
+  description: "Apply for a position at Swiss Design Studio. We're excited about your interest in joining our team.",
+}
 
 export default function CareerApplyPage() {
   return (

@@ -1,9 +1,15 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Mail, Instagram, Linkedin } from "lucide-react"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Team",
+  description: "Meet the designers, strategists, and thinkers behind our Swiss Design approach.",
+}
 
 export default function TeamPage() {
   return (

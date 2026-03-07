@@ -1,9 +1,15 @@
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Lock } from "lucide-react"
 import MainNav from "../components/main-nav"
 import NewsletterSignup from "../components/newsletter-signup"
 import SiteFooter from "../components/site-footer"
+
+export const metadata: Metadata = {
+  title: "Checkout",
+  description: "Complete your purchase. Secure checkout process.",
+}
 
 const orderItems = [
   { id: "1", name: "Editorial Grid System", price: 29, qty: 1, image: "/images/featured-project.png" },

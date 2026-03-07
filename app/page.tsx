@@ -1,6 +1,12 @@
+import { Metadata } from "next"
 import MainNav from "./components/main-nav"
 import SiteFooter from "./components/site-footer"
 import NewsletterSignup from "./components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Welcome to Swiss Design Studio. We specialize in digital design, brand identity, and rigorous aesthetic experiences.",
+}
 
 import HeroSection from "@/components/home/hero-section"
 import IntroductionSection from "@/components/home/introduction-section"

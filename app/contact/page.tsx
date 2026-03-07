@@ -1,9 +1,15 @@
+import { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { Mail, Phone, MapPin } from "lucide-react"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Get in touch with Swiss Design Studio. We'd love to discuss your design needs and upcoming projects.",
+}
 
 export default function ContactPage() {
   return (
