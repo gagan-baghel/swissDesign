@@ -1,11 +1,6 @@
 # Swiss Design Studio
 
 > A modern design studio website built with Next.js 15, React 19, and Tailwind CSS, echoing the timeless principles of Swiss Design (International Typographic Style).
-
-<p align="center">
-  <img src="./public/logo.png" alt="Swiss Design Studio Logo" width="300" />
-</p>
-
 <p align="center">
   <img src="./public/appScreenshot.png" alt="App Screenshot" width="100%" />
 </p>
