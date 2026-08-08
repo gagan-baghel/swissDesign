@@ -36,7 +36,7 @@ export default function ShopPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative group">
               <Image
-                src="https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=1968&auto=format&fit=crop"
+                src="/images/project-typography.png"
                 alt="Typography Poster Set"
                 fill
                 className="object-cover"
@@ -76,7 +76,7 @@ export default function ShopPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative group">
               <Image
-                src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2070&auto=format&fit=crop"
+                src="/images/featured-project.png"
                 alt="Swiss Design Notebook"
                 fill
                 className="object-cover"
@@ -96,7 +96,7 @@ export default function ShopPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative group">
               <Image
-                src="https://images.unsplash.com/photo-1581447109200-bf2a140f00f4?q=80&w=1978&auto=format&fit=crop"
+                src="/images/project-poster.png"
                 alt="Modernist Tote Bag"
                 fill
                 className="object-cover"

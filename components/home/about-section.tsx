@@ -9,9 +9,11 @@ export default function AboutSection() {
                         <h2 className="text-6xl font-bold tracking-tighter mb-8">ABOUT</h2>
                         <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0">
                             <Image
-                                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2067&auto=format&fit=crop"
-                                alt="About Swiss Design"
+                                src="/images/about-studio.png"
+                                alt="Studio workspace reflecting Swiss design aesthetics"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
                             />
                         </div>

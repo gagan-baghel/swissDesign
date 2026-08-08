@@ -12,9 +12,11 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
-                                alt="Typography Project"
+                                src="/images/project-typography.png"
+                                alt="Typography Project — cover"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/80 transition-colors duration-300 flex items-center justify-center">
@@ -29,9 +31,11 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=2070&auto=format&fit=crop"
-                                alt="Poster Design"
+                                src="/images/project-poster.png"
+                                alt="Poster Design — cover"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/80 transition-colors duration-300 flex items-center justify-center">
@@ -46,9 +50,11 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2068&auto=format&fit=crop"
-                                alt="Brand Identity"
+                                src="/images/featured-project.png"
+                                alt="Brand Identity — cover"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/80 transition-colors duration-300 flex items-center justify-center">

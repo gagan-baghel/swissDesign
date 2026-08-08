@@ -9,9 +9,11 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2055&auto=format&fit=crop"
-                            alt="Editorial Grid System"
+                            src="/images/project-typography.png"
+                            alt="Editorial Grid System — product image"
                             fill
+                            priority
+                            placeholder="blur"
                             className="object-cover"
                         />
                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
@@ -27,9 +29,11 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src="https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=1968&auto=format&fit=crop"
-                            alt="Poster Design Templates"
+                            src="/images/project-poster.png"
+                            alt="Poster Design Templates — product image"
                             fill
+                            priority
+                            placeholder="blur"
                             className="object-cover"
                         />
                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
@@ -42,9 +46,11 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1998&auto=format&fit=crop"
-                            alt="Grid Systems Book"
+                            src="/images/project-poster.png"
+                            alt="Grid Systems Book — product image"
                             fill
+                            priority
+                            placeholder="blur"
                             className="object-cover"
                         />
                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
@@ -60,9 +66,11 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src="https://images.unsplash.com/photo-1588693893077-9be72d733075?q=80&w=1887&auto=format&fit=crop"
-                            alt="Swiss Design Poster"
+                            src="/images/project-typography.png"
+                            alt="Swiss Design Poster — product image"
                             fill
+                            priority
+                            placeholder="blur"
                             className="object-cover"
                         />
                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>

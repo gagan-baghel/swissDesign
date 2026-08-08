@@ -10,9 +10,11 @@ export default function TeamSection() {
                     <div>
                         <div className="aspect-[3/4] bg-neutral-800 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
                             <Image
-                                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop"
-                                alt="Emma Müller"
+                                src="/images/project-typography.png"
+                                alt="Emma Müller — Creative Director portrait"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover"
                             />
                         </div>
@@ -23,9 +25,11 @@ export default function TeamSection() {
                     <div>
                         <div className="aspect-[3/4] bg-neutral-800 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
                             <Image
-                                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop"
-                                alt="Thomas Weber"
+                                src="/images/project-poster.png"
+                                alt="Thomas Weber — Design Director portrait"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover"
                             />
                         </div>
@@ -36,9 +40,11 @@ export default function TeamSection() {
                     <div>
                         <div className="aspect-[3/4] bg-neutral-800 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
                             <Image
-                                src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop"
-                                alt="Sophia Chen"
+                                src="/images/video-thumbnail.png"
+                                alt="Sophia Chen — Strategy Director portrait"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover"
                             />
                         </div>

@@ -11,9 +11,11 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop"
-                                alt="Grid System"
+                            src="/images/project-typography.png"
+                                alt="Grid System — article image"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover hover:scale-105 transition-transform duration-500"
                             />
                         </div>
@@ -35,9 +37,11 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
-                                alt="Helvetica Typeface"
+                                src="/images/featured-project.png"
+                                alt="Helvetica Typeface — article image"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover hover:scale-105 transition-transform duration-500"
                             />
                         </div>
@@ -59,9 +63,11 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1544207941-26c2cb728328?q=80&w=1964&auto=format&fit=crop"
-                                alt="Zurich Museum Rebrand"
+                                src="/images/project-poster.png"
+                                alt="Zurich Museum Rebrand — article image"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover hover:scale-105 transition-transform duration-500"
                             />
                         </div>

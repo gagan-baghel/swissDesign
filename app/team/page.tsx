@@ -49,9 +49,11 @@ export default function TeamPage() {
           </div>
           <div className="aspect-[4/3] bg-neutral-100 relative">
             <Image
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop"
-              alt="Our Philosophy"
+              src="/images/project-typography.png"
+              alt="Our Philosophy — studio image"
               fill
+              priority
+              placeholder="blur"
               className="object-cover grayscale"
             />
           </div>
@@ -66,9 +68,11 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1888&auto=format&fit=crop"
+                src="/images/project-typography.png"
                 alt="Emma Müller"
                 fill
+                priority
+                placeholder="blur"
                 className="object-cover"
               />
             </div>
@@ -95,9 +99,11 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop"
+                src="/images/project-poster.png"
                 alt="Thomas Weber"
                 fill
+                priority
+                placeholder="blur"
                 className="object-cover"
               />
             </div>
@@ -124,9 +130,11 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop"
+                src="/images/video-thumbnail.png"
                 alt="Sophia Chen"
                 fill
+                priority
+                placeholder="blur"
                 className="object-cover"
               />
             </div>
@@ -157,9 +165,11 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop"
+                src="/images/project-typography.png"
                 alt="Alex Schmidt"
                 fill
+                priority
+                placeholder="blur"
                 className="object-cover"
               />
             </div>
@@ -171,9 +181,11 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?q=80&w=1887&auto=format&fit=crop"
+                src="/images/project-poster.png"
                 alt="Nina Rodriguez"
                 fill
+                priority
+                placeholder="blur"
                 className="object-cover"
               />
             </div>
@@ -185,7 +197,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop"
+                src="/images/project-typography.png"
                 alt="David Kim"
                 fill
                 className="object-cover"
@@ -199,7 +211,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1887&auto=format&fit=crop"
+                src="/images/project-poster.png"
                 alt="Laura Fischer"
                 fill
                 className="object-cover"
@@ -217,7 +229,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1887&auto=format&fit=crop"
+                src={teamB}
                 alt="Michael Johnson"
                 fill
                 className="object-cover"
@@ -253,7 +265,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop"
+                src={teamC}
                 alt="Robert Zhang"
                 fill
                 className="object-cover"
@@ -292,7 +304,7 @@ export default function TeamPage() {
             </div>
             <div className="aspect-square bg-neutral-100 relative">
               <Image
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+                src={teamA}
                 alt="Join Our Team"
                 fill
                 className="object-cover grayscale"

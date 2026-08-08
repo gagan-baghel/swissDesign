@@ -38,9 +38,11 @@ export default function FeaturedProjectSection() {
                 </div>
                 <div className="aspect-[4/3] bg-neutral-100 relative">
                     <Image
-                        src="https://images.unsplash.com/photo-1524234599372-a5bd0194758d?q=80&w=2548&auto=format&fit=crop"
-                        alt="Zurich Museum of Design"
+                        src="/images/featured-project.png"
+                        alt="Zurich Museum of Design — project hero"
                         fill
+                        priority
+                        placeholder="blur"
                         className="object-cover"
                     />
                 </div>
