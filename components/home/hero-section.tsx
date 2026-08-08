@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import heroImg from "/public/images/hero-swiss.png"
 
 export default function HeroSection() {
   return (
@@ -33,9 +34,11 @@ export default function HeroSection() {
         <div className="col-span-12 md:col-span-5 flex items-center justify-center">
           <div className="relative w-full aspect-square bg-red-600">
             <Image
-              src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop"
-              alt="Swiss Design Art"
+              src={heroImg}
+              alt="Abstract interior composition reflecting Swiss design principles"
               fill
+              priority
+              placeholder="blur"
               className="object-cover"
             />
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-black pl-5"></div>
