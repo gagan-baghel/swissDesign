@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import heroImg from "/public/images/hero-swiss.png"
+import featuredImg from "/public/images/featured-project.png"
 
 export default function HeroSection() {
   return (
@@ -34,7 +34,7 @@ export default function HeroSection() {
         <div className="col-span-12 md:col-span-5 flex items-center justify-center">
           <div className="relative w-full aspect-square bg-red-600">
             <Image
-              src={heroImg}
+              src={featuredImg}
               alt="Abstract interior composition reflecting Swiss design principles"
               fill
               priority
