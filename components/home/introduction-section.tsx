@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
+import introImg from "/public/images/about-studio.png"
 
 export default function IntroductionSection() {
     return (
@@ -9,9 +10,11 @@ export default function IntroductionSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="aspect-[4/3] bg-white relative">
                         <Image
-                            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=2070&auto=format&fit=crop"
-                            alt="Swiss Architecture"
+                            src={introImg}
+                            alt="Swiss Architecture — studio exterior"
                             fill
+                            priority
+                            placeholder="blur"
                             className="object-cover grayscale"
                         />
                     </div>

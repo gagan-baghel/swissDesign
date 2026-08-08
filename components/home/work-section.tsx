@@ -1,5 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
+import work1 from "/public/images/project-typography.png"
+import work2 from "/public/images/project-poster.png"
+import work3 from "/public/images/featured-project.png"
 
 export default function WorkSection() {
     return (
@@ -12,9 +15,11 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
-                                alt="Typography Project"
+                                src={work1}
+                                alt="Typography Project — cover"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/80 transition-colors duration-300 flex items-center justify-center">
@@ -29,9 +34,11 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=2070&auto=format&fit=crop"
-                                alt="Poster Design"
+                                src={work2}
+                                alt="Poster Design — cover"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/80 transition-colors duration-300 flex items-center justify-center">
@@ -46,9 +53,11 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2068&auto=format&fit=crop"
-                                alt="Brand Identity"
+                                src={work3}
+                                alt="Brand Identity — cover"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/80 transition-colors duration-300 flex items-center justify-center">

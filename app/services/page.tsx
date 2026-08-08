@@ -97,7 +97,7 @@ export default function ServicesPage() {
           </div>
           <div className="order-1 md:order-2 aspect-square bg-neutral-100 relative grayscale hover:grayscale-0 transition-all duration-500">
             <Image
-              src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2068&auto=format&fit=crop"
+              src="/images/featured-project.png"
               alt="Brand Identity"
               fill
               className="object-cover"
@@ -185,7 +185,7 @@ export default function ServicesPage() {
           </div>
           <div className="order-1 md:order-2 aspect-square bg-neutral-100 relative grayscale hover:grayscale-0 transition-all duration-500">
             <Image
-              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2055&auto=format&fit=crop"
+              src="/images/project-typography.png"
               alt="Digital Design"
               fill
               className="object-cover"
@@ -197,7 +197,7 @@ export default function ServicesPage() {
         <div id="typography" className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="aspect-square bg-neutral-100 relative grayscale hover:grayscale-0 transition-all duration-500">
             <Image
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
+              src="/images/project-poster.png"
               alt="Typography"
               fill
               className="object-cover"

@@ -1,6 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
+import blog1 from "/public/images/project-typography.png"
+import blog2 from "/public/images/featured-project.png"
+import blog3 from "/public/images/project-poster.png"
 
 export default function BlogSection() {
     return (
@@ -11,9 +14,11 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop"
-                                alt="Grid System"
+                                src={blog1}
+                                alt="Grid System — article image"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover hover:scale-105 transition-transform duration-500"
                             />
                         </div>
@@ -35,9 +40,11 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
-                                alt="Helvetica Typeface"
+                                src={blog2}
+                                alt="Helvetica Typeface — article image"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover hover:scale-105 transition-transform duration-500"
                             />
                         </div>
@@ -59,9 +66,11 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src="https://images.unsplash.com/photo-1544207941-26c2cb728328?q=80&w=1964&auto=format&fit=crop"
-                                alt="Zurich Museum Rebrand"
+                                src={blog3}
+                                alt="Zurich Museum Rebrand — article image"
                                 fill
+                                priority
+                                placeholder="blur"
                                 className="object-cover hover:scale-105 transition-transform duration-500"
                             />
                         </div>

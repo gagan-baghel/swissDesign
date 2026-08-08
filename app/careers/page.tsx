@@ -218,7 +218,7 @@ export default function CareersPage() {
           </div>
           <div className="aspect-[4/3] bg-neutral-100 relative">
             <Image
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop"
+              src="/images/project-typography.png"
               alt="Why Join Us"
               fill
               className="object-cover grayscale"
@@ -390,7 +390,7 @@ export default function CareersPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="aspect-square bg-neutral-100 relative grayscale hover:grayscale-0 transition-all duration-500">
             <Image
-              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop"
+              src="/images/project-poster.png"
               alt="Internship Program"
               fill
               className="object-cover"

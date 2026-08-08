@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Check, Play } from "lucide-react"
+import videoThumb from "/public/images/video-thumbnail.png"
 
 export default function PhilosophySection() {
     return (
@@ -32,9 +33,11 @@ export default function PhilosophySection() {
                 </div>
                 <div className="aspect-video bg-neutral-100 relative">
                     <Image
-                        src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
-                        alt="Design Philosophy Video"
+                        src={videoThumb}
+                        alt="Design Philosophy Video — thumbnail"
                         fill
+                        priority
+                        placeholder="blur"
                         className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
