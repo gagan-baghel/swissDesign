@@ -5,9 +5,6 @@ import { ArrowRight, Mail, Instagram, Linkedin } from "lucide-react"
 import MainNav from "../components/main-nav"
 import SiteFooter from "../components/site-footer"
 import NewsletterSignup from "../components/newsletter-signup"
-import teamA from "/public/images/project-typography.png"
-import teamB from "/public/images/project-poster.png"
-import teamC from "/public/images/video-thumbnail.png"
 
 export const metadata: Metadata = {
   title: "Team",
@@ -52,12 +49,12 @@ export default function TeamPage() {
           </div>
           <div className="aspect-[4/3] bg-neutral-100 relative">
             <Image
-            src={teamA}
-            alt="Our Philosophy — studio image"
+              src="/images/project-typography.png"
+              alt="Our Philosophy — studio image"
               fill
-            priority
-            placeholder="blur"
-            className="object-cover grayscale"
+              priority
+              placeholder="blur"
+              className="object-cover grayscale"
             />
           </div>
         </div>
@@ -71,7 +68,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamA}
+                src="/images/project-typography.png"
                 alt="Emma Müller"
                 fill
                 priority
@@ -102,7 +99,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamB}
+                src="/images/project-poster.png"
                 alt="Thomas Weber"
                 fill
                 priority
@@ -133,7 +130,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-[3/4] bg-neutral-100 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamC}
+                src="/images/video-thumbnail.png"
                 alt="Sophia Chen"
                 fill
                 priority
@@ -168,7 +165,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamA}
+                src="/images/project-typography.png"
                 alt="Alex Schmidt"
                 fill
                 priority
@@ -184,7 +181,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamB}
+                src="/images/project-poster.png"
                 alt="Nina Rodriguez"
                 fill
                 priority
@@ -200,7 +197,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamA}
+                src="/images/project-typography.png"
                 alt="David Kim"
                 fill
                 className="object-cover"
@@ -214,7 +211,7 @@ export default function TeamPage() {
           <div>
             <div className="aspect-square bg-neutral-100 mb-4 relative grayscale hover:grayscale-0 transition-all duration-500">
               <Image
-                src={teamB}
+                src="/images/project-poster.png"
                 alt="Laura Fischer"
                 fill
                 className="object-cover"

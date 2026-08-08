@@ -1,8 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import team1 from "/public/images/project-typography.png"
-import team2 from "/public/images/project-poster.png"
-import team3 from "/public/images/video-thumbnail.png"
 
 export default function TeamSection() {
     return (
@@ -13,7 +10,7 @@ export default function TeamSection() {
                     <div>
                         <div className="aspect-[3/4] bg-neutral-800 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
                             <Image
-                                src={team1}
+                                src="/images/project-typography.png"
                                 alt="Emma Müller — Creative Director portrait"
                                 fill
                                 priority
@@ -28,7 +25,7 @@ export default function TeamSection() {
                     <div>
                         <div className="aspect-[3/4] bg-neutral-800 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
                             <Image
-                                src={team2}
+                                src="/images/project-poster.png"
                                 alt="Thomas Weber — Design Director portrait"
                                 fill
                                 priority
@@ -43,7 +40,7 @@ export default function TeamSection() {
                     <div>
                         <div className="aspect-[3/4] bg-neutral-800 mb-6 relative grayscale hover:grayscale-0 transition-all duration-500">
                             <Image
-                                src={team3}
+                                src="/images/video-thumbnail.png"
                                 alt="Sophia Chen — Strategy Director portrait"
                                 fill
                                 priority

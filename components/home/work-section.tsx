@@ -1,8 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import work1 from "/public/images/project-typography.png"
-import work2 from "/public/images/project-poster.png"
-import work3 from "/public/images/featured-project.png"
 
 export default function WorkSection() {
     return (
@@ -15,7 +12,7 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src={work1}
+                                src="/images/project-typography.png"
                                 alt="Typography Project — cover"
                                 fill
                                 priority
@@ -34,7 +31,7 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src={work2}
+                                src="/images/project-poster.png"
                                 alt="Poster Design — cover"
                                 fill
                                 priority
@@ -53,7 +50,7 @@ export default function WorkSection() {
                     <div className="group">
                         <div className="aspect-square bg-white mb-4 overflow-hidden relative">
                             <Image
-                                src={work3}
+                                src="/images/featured-project.png"
                                 alt="Brand Identity — cover"
                                 fill
                                 priority

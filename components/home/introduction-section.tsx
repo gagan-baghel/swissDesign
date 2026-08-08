@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
-import introImg from "/public/images/about-studio.png"
 
 export default function IntroductionSection() {
     return (
@@ -10,7 +9,7 @@ export default function IntroductionSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="aspect-[4/3] bg-white relative">
                         <Image
-                            src={introImg}
+                        src="/images/about-studio.png"
                             alt="Swiss Architecture — studio exterior"
                             fill
                             priority

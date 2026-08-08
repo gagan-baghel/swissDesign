@@ -1,9 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import product1 from "/public/images/project-typography.png"
-import product2 from "/public/images/project-poster.png"
-import product3 from "/public/images/project-poster.png"
-import product4 from "/public/images/project-typography.png"
 
 export default function ProductsSection() {
     return (
@@ -13,7 +9,7 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src={product1}
+                            src="/images/project-typography.png"
                             alt="Editorial Grid System — product image"
                             fill
                             priority
@@ -33,7 +29,7 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src={product2}
+                            src="/images/project-poster.png"
                             alt="Poster Design Templates — product image"
                             fill
                             priority
@@ -50,7 +46,7 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src={product3}
+                            src="/images/project-poster.png"
                             alt="Grid Systems Book — product image"
                             fill
                             priority
@@ -70,7 +66,7 @@ export default function ProductsSection() {
                 <div>
                     <div className="aspect-square bg-neutral-100 mb-4 relative group">
                         <Image
-                            src={product4}
+                            src="/images/project-typography.png"
                             alt="Swiss Design Poster — product image"
                             fill
                             priority

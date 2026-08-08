@@ -1,6 +1,5 @@
 import Image from "next/image"
 import { Check, Play } from "lucide-react"
-import videoThumb from "/public/images/video-thumbnail.png"
 
 export default function PhilosophySection() {
     return (
@@ -33,7 +32,7 @@ export default function PhilosophySection() {
                 </div>
                 <div className="aspect-video bg-neutral-100 relative">
                     <Image
-                        src={videoThumb}
+                        src="/images/video-thumbnail.png"
                         alt="Design Philosophy Video — thumbnail"
                         fill
                         priority

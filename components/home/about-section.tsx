@@ -1,5 +1,4 @@
 import Image from "next/image"
-import aboutImg from "/public/images/about-studio.png"
 
 export default function AboutSection() {
     return (
@@ -10,7 +9,7 @@ export default function AboutSection() {
                         <h2 className="text-6xl font-bold tracking-tighter mb-8">ABOUT</h2>
                         <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0">
                             <Image
-                                src={aboutImg}
+                                src="/images/about-studio.png"
                                 alt="Studio workspace reflecting Swiss design aesthetics"
                                 fill
                                 priority

@@ -1,9 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
-import blog1 from "/public/images/project-typography.png"
-import blog2 from "/public/images/featured-project.png"
-import blog3 from "/public/images/project-poster.png"
 
 export default function BlogSection() {
     return (
@@ -14,7 +11,7 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src={blog1}
+                            src="/images/project-typography.png"
                                 alt="Grid System — article image"
                                 fill
                                 priority
@@ -40,7 +37,7 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src={blog2}
+                                src="/images/featured-project.png"
                                 alt="Helvetica Typeface — article image"
                                 fill
                                 priority
@@ -66,7 +63,7 @@ export default function BlogSection() {
                     <div className="bg-white border border-black">
                         <div className="aspect-[16/9] bg-neutral-200 relative">
                             <Image
-                                src={blog3}
+                                src="/images/project-poster.png"
                                 alt="Zurich Museum Rebrand — article image"
                                 fill
                                 priority
